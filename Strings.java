@@ -11,5 +11,9 @@ public class Strings {
         // equal checks the values
         System.out.println(x.equals(y)); 
         System.out.println(x.equals(z));
+        // concat = is useed to add both the strings
+        System.out.println(x.concat(y));
+        x = x.concat(y);
+        System.out.println(x);
     }
 }
